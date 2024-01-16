@@ -1,0 +1,22 @@
+name = 'MMORPG Game by Kazuo'
+shortName = "MMORPG"
+description = "Still testing"
+themeColor = "#ffffff"
+
+
+modules = [
+    './main',
+    '@rpgjs/default-gui',
+    '@rpgjs/gamepad'
+]
+
+
+[start]
+    map = 'map1'
+    graphic = 'hero'
+    hitbox = [16, 16]
+
+
+[compilerOptions.build]
+    serverUrl = ''
+    pwaEnabled = false

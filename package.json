@@ -1,0 +1,39 @@
+{
+  "name": "rpgjs-standalone-kazuo",
+  "version": "1.0.1",
+  "description": "First RPG By Kazuo Using RPGJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "b": "rpgjs build ",
+    "m": "rpgjs dev",
+    "r": "RPG_TYPE=rpg npm run dev",
+    "s": "PORT=64877 STATIC_DIRECTORY_ENABLED=false node dist/server/main.mjs",
+    "bm": "rpgjs build && rpgjs dev",
+    "start": "node dist/server/main.mjs"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "dependencies": {
+    "@rpgjs/client": "4.1.2",
+    "@rpgjs/default-gui": "^4.1.2",
+    "@rpgjs/gamepad": "^4.1.2",
+    "@rpgjs/mobile-gui": "^4.1.2",
+    "@rpgjs/server": "4.1.2",
+    "@rpgjs/standalone": "4.1.2",
+    "@rpgjs/types": "4.0.5",
+    "socket.io-client": "4.7.2"
+  },
+  "devDependencies": {
+    "@rpgjs/compiler": "4.1.1",
+    "typescript": "5.2.2"
+  },
+  "keywords": [
+    "Kazuo",
+    "RPGJS",
+    "RPG-Game"
+  ],
+  "author": "KazuoYuuka",
+  "license": "MIT"
+}
