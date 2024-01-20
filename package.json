@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "b": "rpgjs build ",
     "d": "rpgjs dev",
-    "bm": "rpgjs build && rpgjs dev",
-    "start": "npm install && npm run d"
+    "bd": "rpgjs build && rpgjs dev",
+    "start": "npm install && npm run bd"
   },
   "engines": {
     "node": ">=14"
