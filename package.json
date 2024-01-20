@@ -6,11 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "b": "rpgjs build ",
-    "m": "rpgjs dev",
-    "r": "RPG_TYPE=rpg npm run dev",
-    "s": "PORT=64877 STATIC_DIRECTORY_ENABLED=false node dist/server/main.mjs",
+    "d": "rpgjs dev",
     "bm": "rpgjs build && rpgjs dev",
-    "start": "node dist/server/main.mjs"
+    "start": "npm install && node run d"
   },
   "engines": {
     "node": ">=14"
