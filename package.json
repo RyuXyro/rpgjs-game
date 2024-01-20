@@ -8,7 +8,7 @@
     "b": "rpgjs build ",
     "d": "rpgjs dev",
     "bm": "rpgjs build && rpgjs dev",
-    "start": "npm install && node run d"
+    "start": "npm install && npm run d"
   },
   "engines": {
     "node": ">=14"
